@@ -1,0 +1,51 @@
+:root {
+    font-family: var(--font-primary);
+}
+
+body {
+    background-color: var(--background-primary);
+}
+
+.channel {
+    width: 600px;
+    padding: 16px;
+}
+
+.message-wrapper {
+    padding: 0px 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    color: var(--text-normal);
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.timestamp {
+    font-size: 0.75rem;
+    line-height: 1.375rem;
+    color: var(--text-muted);
+    vertical-align: baseline;
+}
+
+.username {
+    font-weight: 500;
+}
+
+.message-content {
+}

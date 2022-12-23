@@ -1,0 +1,922 @@
+@font-face {
+    font-family: ABC Ginto Nord;
+    font-style: normal;
+    font-weight: 800;
+    src: url(https://discord.com/assets/3d07f5abf272fbb5670d02ed687453d0.woff2) format("woff2")
+}
+
+@font-face {
+    font-family: ABC Ginto Nord;
+    font-style: italic;
+    font-weight: 800;
+    src: url(https://discord.com/assets/3c0aa7f9d47d6a96b14ecada461ccf0e.woff2) format("woff2")
+}
+
+@font-face {
+    font-family: gg sans;
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://discord.com/assets/082e59042c15a057af01d5b717d01fb3.woff2) format("woff2")
+}
+
+@font-face {
+    font-family: gg sans;
+    font-style: italic;
+    font-weight: 400;
+    src: url(https://discord.com/assets/7be9509ec4839ef0d6b22af6dabbfebc.woff2) format("woff2")
+}
+
+@font-face {
+    font-family: gg sans;
+    font-style: normal;
+    font-weight: 500;
+    src: url(https://discord.com/assets/77f603cc7860fcb784e6ef9320a4a9c2.woff2) format("woff2")
+}
+
+@font-face {
+    font-family: gg sans;
+    font-style: italic;
+    font-weight: 500;
+    src: url(https://discord.com/assets/b3f6945bc417c1107fa3cecbab10693c.woff2) format("woff2")
+}
+
+@font-face {
+    font-family: gg sans;
+    font-style: normal;
+    font-weight: 600;
+    src: url(https://discord.com/assets/d8da58e7d885c2b292c89b6965df837f.woff2) format("woff2")
+}
+
+@font-face {
+    font-family: gg sans;
+    font-style: italic;
+    font-weight: 600;
+    src: url(https://discord.com/assets/15c50574ecf0255d7b5bb86d3e59342b.woff2) format("woff2")
+}
+
+@font-face {
+    font-family: gg sans;
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://discord.com/assets/4bc3ebf7886dab550f0af897eb0c0b2d.woff2) format("woff2")
+}
+
+@font-face {
+    font-family: gg sans;
+    font-style: italic;
+    font-weight: 700;
+    src: url(https://discord.com/assets/7312b0ff181901ccb748a8b182515db1.woff2) format("woff2")
+}
+
+@font-face {
+    font-family: gg sans;
+    font-style: normal;
+    font-weight: 800;
+    src: url(https://discord.com/assets/5e278fbeae88c37e43544d6462c9c417.woff2) format("woff2")
+}
+
+@font-face {
+    font-family: gg sans;
+    font-style: italic;
+    font-weight: 800;
+    src: url(https://discord.com/assets/1757b0df20a80c57601bd34ebe9a2650.woff2) format("woff2")
+}
+
+@font-face {
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://discord.com/assets/980082c4328266be3342a03dcb37c432.woff2) format("woff2")
+}
+
+@font-face {
+    font-family: Noto Sans;
+    font-style: italic;
+    font-weight: 400;
+    src: url(https://discord.com/assets/db985aaa3c64f10506d96d876e350d47.woff2) format("woff2")
+}
+
+@font-face {
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 500;
+    src: url(https://discord.com/assets/05422eb499ddf5616e44a52c4f1063ae.woff2) format("woff2")
+}
+
+@font-face {
+    font-family: Noto Sans;
+    font-style: italic;
+    font-weight: 500;
+    src: url(https://discord.com/assets/412f5d9534ce2a2e1a1ae9b746bca5b5.woff2) format("woff2")
+}
+
+@font-face {
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 600;
+    src: url(https://discord.com/assets/e55012627a8f6e7203b72a8de730c483.woff2) format("woff2")
+}
+
+@font-face {
+    font-family: Noto Sans;
+    font-style: italic;
+    font-weight: 600;
+    src: url(https://discord.com/assets/d9b0aabb79e7d8b3b14789ebd534f158.woff2) format("woff2")
+}
+
+@font-face {
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://discord.com/assets/7cf1be7696bf689b97230262eade8ad8.woff2) format("woff2")
+}
+
+@font-face {
+    font-family: Noto Sans;
+    font-style: italic;
+    font-weight: 700;
+    src: url(https://discord.com/assets/f9bf0f65660d23c6f359d22720fc55ae.woff2) format("woff2")
+}
+
+@font-face {
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 800;
+    src: url(https://discord.com/assets/d6db7b5639c7ed70f8b582984dda6c62.woff2) format("woff2")
+}
+
+@font-face {
+    font-family: Noto Sans;
+    font-style: italic;
+    font-weight: 800;
+    src: url(https://discord.com/assets/a2a248f78d12dd5b842930bda7036302.woff2) format("woff2")
+}
+
+@font-face {
+    font-family: Source Code Pro;
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://discord.com/assets/c59a692e5d6ed04d4cb01f58c10d6509.woff2) format("woff2")
+}
+
+@font-face {
+    font-family: Source Code Pro;
+    font-style: normal;
+    font-weight: 600;
+    src: url(https://discord.com/assets/2e9c1d3fb7d0851d71596f9f8b10393b.woff2) format("woff2")
+}
+
+:root {
+    /* font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%; */
+
+    --saturation-factor: 1;
+    --primary-dark-100: hsl(240, calc(var(--saturation-factor, 1) * 5.9%), 96.7%);
+    --primary-dark-130: hsl(180, calc(var(--saturation-factor, 1) * 3.2%), 93.9%);
+    --primary-dark-160: hsl(240, calc(var(--saturation-factor, 1) * 4.2%), 90.6%);
+    --primary-dark-200: hsl(210, calc(var(--saturation-factor, 1) * 2.9%), 86.7%);
+    --primary-dark-230: hsl(210, calc(var(--saturation-factor, 1) * 4.5%), 82.7%);
+    --primary-dark-260: hsl(210, calc(var(--saturation-factor, 1) * 3.6%), 78.4%);
+    --primary-dark-300: hsl(216, calc(var(--saturation-factor, 1) * 3.7%), 73.5%);
+    --primary-dark-330: hsl(214, calc(var(--saturation-factor, 1) * 4%), 65.3%);
+    --primary-dark-345: hsl(223, calc(var(--saturation-factor, 1) * 3.4%), 60.2%);
+    --primary-dark-360: hsl(213, calc(var(--saturation-factor, 1) * 4.1%), 57.5%);
+    --primary-dark-400: hsl(218, calc(var(--saturation-factor, 1) * 4.6%), 46.9%);
+    --primary-dark-430: hsl(213, calc(var(--saturation-factor, 1) * 5%), 42.9%);
+    --primary-dark-460: hsl(215, calc(var(--saturation-factor, 1) * 6.1%), 38.8%);
+    --primary-dark-500: hsl(217, calc(var(--saturation-factor, 1) * 7.6%), 33.5%);
+    --primary-dark-530: hsl(220, calc(var(--saturation-factor, 1) * 7.7%), 30.6%);
+    --primary-dark-560: hsl(218, calc(var(--saturation-factor, 1) * 7.9%), 27.3%);
+    --primary-dark-600: hsl(220, calc(var(--saturation-factor, 1) * 7.7%), 22.9%);
+    --primary-dark-630: hsl(223, calc(var(--saturation-factor, 1) * 6.9%), 19.8%);
+    --primary-dark-660: hsl(220, calc(var(--saturation-factor, 1) * 6.8%), 17.3%);
+    --primary-dark-700: hsl(216, calc(var(--saturation-factor, 1) * 7.2%), 13.5%);
+    --primary-dark-730: hsl(225, calc(var(--saturation-factor, 1) * 6.3%), 12.5%);
+    --primary-dark-760: hsl(216, calc(var(--saturation-factor, 1) * 8.5%), 11.6%);
+    --primary-dark-800: hsl(225, calc(var(--saturation-factor, 1) * 7.7%), 10.2%);
+    --primary-dark-830: hsl(220, calc(var(--saturation-factor, 1) * 7.7%), 7.6%);
+    --primary-dark-860: hsl(210, calc(var(--saturation-factor, 1) * 7.7%), 5.1%);
+    --primary-dark-900: hsl(240, calc(var(--saturation-factor, 1) * 11.1%), 1.8%);
+    --primary-light-100: hsl(180, calc(var(--saturation-factor, 1) * 7.7%), 97.5%);
+    --primary-light-130: hsl(220, calc(var(--saturation-factor, 1) * 13%), 95.5%);
+    --primary-light-160: hsl(210, calc(var(--saturation-factor, 1) * 11.1%), 92.9%);
+    --primary-light-200: hsl(216, calc(var(--saturation-factor, 1) * 9.8%), 90%);
+    --primary-light-230: hsl(210, calc(var(--saturation-factor, 1) * 9.1%), 87.1%);
+    --primary-light-260: hsl(210, calc(var(--saturation-factor, 1) * 9.8%), 83.9%);
+    --primary-light-300: hsl(210, calc(var(--saturation-factor, 1) * 9.8%), 80%);
+    --primary-light-330: hsl(214, calc(var(--saturation-factor, 1) * 10.6%), 74.1%);
+    --primary-light-345: hsl(216, calc(var(--saturation-factor, 1) * 9.9%), 70.4%);
+    --primary-light-360: hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 68.2%);
+    --primary-light-400: hsl(213, calc(var(--saturation-factor, 1) * 9.9%), 60.4%);
+    --primary-light-430: hsl(214, calc(var(--saturation-factor, 1) * 9.7%), 57.5%);
+    --primary-light-460: hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 54.3%);
+    --primary-light-500: hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%);
+    --primary-light-530: hsl(213, calc(var(--saturation-factor, 1) * 9.4%), 45.9%);
+    --primary-light-560: hsl(213, calc(var(--saturation-factor, 1) * 9.6%), 40.8%);
+    --primary-light-600: hsl(215, calc(var(--saturation-factor, 1) * 9.7%), 34.3%);
+    --primary-light-630: hsl(212, calc(var(--saturation-factor, 1) * 9.9%), 29.6%);
+    --primary-light-660: hsl(217, calc(var(--saturation-factor, 1) * 9.8%), 26.1%);
+    --primary-light-700: hsl(210, calc(var(--saturation-factor, 1) * 9.8%), 20%);
+    --primary-light-730: hsl(216, calc(var(--saturation-factor, 1) * 10.4%), 18.8%);
+    --primary-light-760: hsl(213, calc(var(--saturation-factor, 1) * 10.1%), 17.5%);
+    --primary-light-800: hsl(214, calc(var(--saturation-factor, 1) * 9.1%), 15.1%);
+    --primary-light-830: hsl(216, calc(var(--saturation-factor, 1) * 8.5%), 11.6%);
+    --primary-light-860: hsl(210, calc(var(--saturation-factor, 1) * 10.5%), 7.5%);
+    --primary-light-900: hsl(240, calc(var(--saturation-factor, 1) * 7.7%), 2.5%);
+    --brand-100: hsl(240, calc(var(--saturation-factor, 1) * 77.8%), 98.2%);
+    --brand-130: hsl(236, calc(var(--saturation-factor, 1) * 87.5%), 96.9%);
+    --brand-160: hsl(235, calc(var(--saturation-factor, 1) * 84.6%), 94.9%);
+    --brand-200: hsl(236, calc(var(--saturation-factor, 1) * 83.3%), 92.9%);
+    --brand-230: hsl(236, calc(var(--saturation-factor, 1) * 87%), 91%);
+    --brand-260: hsl(235, calc(var(--saturation-factor, 1) * 86.2%), 88.6%);
+    --brand-300: hsl(235, calc(var(--saturation-factor, 1) * 86.1%), 85.9%);
+    --brand-330: hsl(235, calc(var(--saturation-factor, 1) * 85.1%), 81.6%);
+    --brand-345: hsl(235, calc(var(--saturation-factor, 1) * 85.2%), 78.8%);
+    --brand-360: hsl(235, calc(var(--saturation-factor, 1) * 86.1%), 77.5%);
+    --brand-400: hsl(235, calc(var(--saturation-factor, 1) * 86.1%), 71.8%);
+    --brand-430: hsl(235, calc(var(--saturation-factor, 1) * 85.7%), 69.8%);
+    --brand-460: hsl(235, calc(var(--saturation-factor, 1) * 85.5%), 67.5%);
+    --brand-500: hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%);
+    --brand-530: hsl(235, calc(var(--saturation-factor, 1) * 66.7%), 58.8%);
+    --brand-560: hsl(235, calc(var(--saturation-factor, 1) * 51.4%), 52.4%);
+    --brand-600: hsl(235, calc(var(--saturation-factor, 1) * 46.7%), 44.1%);
+    --brand-630: hsl(235, calc(var(--saturation-factor, 1) * 46.7%), 38.2%);
+    --brand-660: hsl(235, calc(var(--saturation-factor, 1) * 47.1%), 33.3%);
+    --brand-700: hsl(235, calc(var(--saturation-factor, 1) * 47%), 25.9%);
+    --brand-730: hsl(235, calc(var(--saturation-factor, 1) * 46.8%), 24.3%);
+    --brand-760: hsl(234, calc(var(--saturation-factor, 1) * 46.9%), 22.2%);
+    --brand-800: hsl(235, calc(var(--saturation-factor, 1) * 47.5%), 19.4%);
+    --brand-830: hsl(235, calc(var(--saturation-factor, 1) * 47.4%), 14.9%);
+    --brand-860: hsl(235, calc(var(--saturation-factor, 1) * 46.9%), 9.6%);
+    --brand-900: hsl(233, calc(var(--saturation-factor, 1) * 50%), 3.1%);
+    --brand-new-100: hsl(240, calc(var(--saturation-factor, 1) * 77.8%), 98.2%);
+    --brand-new-130: hsl(236, calc(var(--saturation-factor, 1) * 87.5%), 96.9%);
+    --brand-new-160: hsl(235, calc(var(--saturation-factor, 1) * 84.6%), 94.9%);
+    --brand-new-200: hsl(236, calc(var(--saturation-factor, 1) * 83.3%), 92.9%);
+    --brand-new-230: hsl(236, calc(var(--saturation-factor, 1) * 87%), 91%);
+    --brand-new-260: hsl(235, calc(var(--saturation-factor, 1) * 86.2%), 88.6%);
+    --brand-new-300: hsl(235, calc(var(--saturation-factor, 1) * 86.1%), 85.9%);
+    --brand-new-330: hsl(235, calc(var(--saturation-factor, 1) * 85.1%), 81.6%);
+    --brand-new-345: hsl(235, calc(var(--saturation-factor, 1) * 85.2%), 78.8%);
+    --brand-new-360: hsl(235, calc(var(--saturation-factor, 1) * 86.1%), 77.5%);
+    --brand-new-400: hsl(235, calc(var(--saturation-factor, 1) * 86.1%), 71.8%);
+    --brand-new-430: hsl(235, calc(var(--saturation-factor, 1) * 85.7%), 69.8%);
+    --brand-new-460: hsl(235, calc(var(--saturation-factor, 1) * 85.5%), 67.5%);
+    --brand-new-500: hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%);
+    --brand-new-530: hsl(235, calc(var(--saturation-factor, 1) * 66.7%), 58.8%);
+    --brand-new-560: hsl(235, calc(var(--saturation-factor, 1) * 51.4%), 52.4%);
+    --brand-new-600: hsl(235, calc(var(--saturation-factor, 1) * 46.7%), 44.1%);
+    --brand-new-630: hsl(235, calc(var(--saturation-factor, 1) * 46.7%), 38.2%);
+    --brand-new-660: hsl(235, calc(var(--saturation-factor, 1) * 47.1%), 33.3%);
+    --brand-new-700: hsl(235, calc(var(--saturation-factor, 1) * 47%), 25.9%);
+    --brand-new-730: hsl(235, calc(var(--saturation-factor, 1) * 46.8%), 24.3%);
+    --brand-new-760: hsl(234, calc(var(--saturation-factor, 1) * 46.9%), 22.2%);
+    --brand-new-800: hsl(235, calc(var(--saturation-factor, 1) * 47.5%), 19.4%);
+    --brand-new-830: hsl(235, calc(var(--saturation-factor, 1) * 47.4%), 14.9%);
+    --brand-new-860: hsl(235, calc(var(--saturation-factor, 1) * 46.9%), 9.6%);
+    --brand-new-900: hsl(233, calc(var(--saturation-factor, 1) * 50%), 3.1%);
+    --status-red-100: hsl(0, calc(var(--saturation-factor, 1) * 80%), 98%);
+    --status-red-130: hsl(0, calc(var(--saturation-factor, 1) * 78.9%), 96.3%);
+    --status-red-160: hsl(0, calc(var(--saturation-factor, 1) * 80%), 94.1%);
+    --status-red-200: hsl(358, calc(var(--saturation-factor, 1) * 81%), 91.8%);
+    --status-red-230: hsl(359, calc(var(--saturation-factor, 1) * 81.5%), 89.4%);
+    --status-red-260: hsl(359, calc(var(--saturation-factor, 1) * 82.1%), 86.9%);
+    --status-red-300: hsl(358, calc(var(--saturation-factor, 1) * 83.1%), 83.7%);
+    --status-red-330: hsl(359, calc(var(--saturation-factor, 1) * 83.3%), 78.8%);
+    --status-red-345: hsl(359, calc(var(--saturation-factor, 1) * 82.3%), 75.7%);
+    --status-red-360: hsl(359, calc(var(--saturation-factor, 1) * 82%), 73.9%);
+    --status-red-400: hsl(359, calc(var(--saturation-factor, 1) * 83%), 67.6%);
+    --status-red-430: hsl(359, calc(var(--saturation-factor, 1) * 83.1%), 65.3%);
+    --status-red-460: hsl(359, calc(var(--saturation-factor, 1) * 82.2%), 62.5%);
+    --status-red-500: hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%);
+    --status-red-530: hsl(359, calc(var(--saturation-factor, 1) * 66.7%), 54.1%);
+    --status-red-560: hsl(359, calc(var(--saturation-factor, 1) * 56.7%), 48%);
+    --status-red-600: hsl(359, calc(var(--saturation-factor, 1) * 56.3%), 40.4%);
+    --status-red-630: hsl(359, calc(var(--saturation-factor, 1) * 56.4%), 35.1%);
+    --status-red-660: hsl(359, calc(var(--saturation-factor, 1) * 56.4%), 30.6%);
+    --status-red-700: hsl(358, calc(var(--saturation-factor, 1) * 57%), 23.7%);
+    --status-red-730: hsl(359, calc(var(--saturation-factor, 1) * 56.1%), 22.4%);
+    --status-red-760: hsl(359, calc(var(--saturation-factor, 1) * 56.2%), 20.6%);
+    --status-red-800: hsl(359, calc(var(--saturation-factor, 1) * 56%), 17.8%);
+    --status-red-830: hsl(358, calc(var(--saturation-factor, 1) * 57.1%), 13.7%);
+    --status-red-860: hsl(0, calc(var(--saturation-factor, 1) * 56.5%), 9%);
+    --status-red-900: hsl(0, calc(var(--saturation-factor, 1) * 60%), 2.9%);
+    --status-yellow-100: hsl(38, calc(var(--saturation-factor, 1) * 100%), 97.8%);
+    --status-yellow-130: hsl(37, calc(var(--saturation-factor, 1) * 100%), 95.9%);
+    --status-yellow-160: hsl(37, calc(var(--saturation-factor, 1) * 94.1%), 93.3%);
+    --status-yellow-200: hsl(37, calc(var(--saturation-factor, 1) * 95.7%), 90.8%);
+    --status-yellow-230: hsl(38, calc(var(--saturation-factor, 1) * 96.7%), 88%);
+    --status-yellow-260: hsl(37, calc(var(--saturation-factor, 1) * 94.7%), 85.1%);
+    --status-yellow-300: hsl(37, calc(var(--saturation-factor, 1) * 95.7%), 81.6%);
+    --status-yellow-330: hsl(38, calc(var(--saturation-factor, 1) * 95.1%), 76.1%);
+    --status-yellow-345: hsl(38, calc(var(--saturation-factor, 1) * 95.7%), 72.5%);
+    --status-yellow-360: hsl(38, calc(var(--saturation-factor, 1) * 96%), 70.6%);
+    --status-yellow-400: hsl(38, calc(var(--saturation-factor, 1) * 95.7%), 63.3%);
+    --status-yellow-430: hsl(37, calc(var(--saturation-factor, 1) * 96%), 60.8%);
+    --status-yellow-460: hsl(38, calc(var(--saturation-factor, 1) * 95.4%), 57.6%);
+    --status-yellow-500: hsl(38, calc(var(--saturation-factor, 1) * 95.7%), 54.1%);
+    --status-yellow-530: hsl(37, calc(var(--saturation-factor, 1) * 81%), 49.4%);
+    --status-yellow-560: hsl(37, calc(var(--saturation-factor, 1) * 81.2%), 43.9%);
+    --status-yellow-600: hsl(38, calc(var(--saturation-factor, 1) * 80.9%), 36.9%);
+    --status-yellow-630: hsl(38, calc(var(--saturation-factor, 1) * 81.5%), 31.8%);
+    --status-yellow-660: hsl(37, calc(var(--saturation-factor, 1) * 81.7%), 27.8%);
+    --status-yellow-700: hsl(37, calc(var(--saturation-factor, 1) * 81.8%), 21.6%);
+    --status-yellow-730: hsl(37, calc(var(--saturation-factor, 1) * 80.8%), 20.4%);
+    --status-yellow-760: hsl(37, calc(var(--saturation-factor, 1) * 81.1%), 18.6%);
+    --status-yellow-800: hsl(38, calc(var(--saturation-factor, 1) * 80.7%), 16.3%);
+    --status-yellow-830: hsl(37, calc(var(--saturation-factor, 1) * 81.3%), 12.5%);
+    --status-yellow-860: hsl(37, calc(var(--saturation-factor, 1) * 81%), 8.2%);
+    --status-yellow-900: hsl(35, calc(var(--saturation-factor, 1) * 85.7%), 2.7%);
+    --status-green-100: hsl(137, calc(var(--saturation-factor, 1) * 77.8%), 98.2%);
+    --status-green-130: hsl(137, calc(var(--saturation-factor, 1) * 87.5%), 96.9%);
+    --status-green-160: hsl(139, calc(var(--saturation-factor, 1) * 84.6%), 94.9%);
+    --status-green-200: hsl(139, calc(var(--saturation-factor, 1) * 83.8%), 92.7%);
+    --status-green-230: hsl(139, calc(var(--saturation-factor, 1) * 87.2%), 90.8%);
+    --status-green-260: hsl(138, calc(var(--saturation-factor, 1) * 86.2%), 88.6%);
+    --status-green-300: hsl(138, calc(var(--saturation-factor, 1) * 86.1%), 85.9%);
+    --status-green-330: hsl(139, calc(var(--saturation-factor, 1) * 85.3%), 81.4%);
+    --status-green-345: hsl(139, calc(var(--saturation-factor, 1) * 85.3%), 78.6%);
+    --status-green-360: hsl(139, calc(var(--saturation-factor, 1) * 86.2%), 77.3%);
+    --status-green-400: hsl(138, calc(var(--saturation-factor, 1) * 86.1%), 71.8%);
+    --status-green-430: hsl(138, calc(var(--saturation-factor, 1) * 85.8%), 69.6%);
+    --status-green-460: hsl(139, calc(var(--saturation-factor, 1) * 85.6%), 67.3%);
+    --status-green-500: hsl(139, calc(var(--saturation-factor, 1) * 85.6%), 64.5%);
+    --status-green-530: hsl(139, calc(var(--saturation-factor, 1) * 66.8%), 58.6%);
+    --status-green-560: hsl(139, calc(var(--saturation-factor, 1) * 51.6%), 52.2%);
+    --status-green-600: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);
+    --status-green-630: hsl(139, calc(var(--saturation-factor, 1) * 47.4%), 38%);
+    --status-green-660: hsl(139, calc(var(--saturation-factor, 1) * 47.1%), 33.3%);
+    --status-green-700: hsl(138, calc(var(--saturation-factor, 1) * 47%), 25.9%);
+    --status-green-730: hsl(138, calc(var(--saturation-factor, 1) * 46.8%), 24.3%);
+    --status-green-760: hsl(138, calc(var(--saturation-factor, 1) * 46.9%), 22.2%);
+    --status-green-800: hsl(139, calc(var(--saturation-factor, 1) * 47.5%), 19.4%);
+    --status-green-830: hsl(138, calc(var(--saturation-factor, 1) * 47.4%), 14.9%);
+    --status-green-860: hsl(138, calc(var(--saturation-factor, 1) * 46.9%), 9.6%);
+    --status-green-900: hsl(143, calc(var(--saturation-factor, 1) * 50%), 3.1%);
+    --status-grey-100: hsl(180, calc(var(--saturation-factor, 1) * 7.7%), 97.5%);
+    --status-grey-130: hsl(220, calc(var(--saturation-factor, 1) * 13%), 95.5%);
+    --status-grey-160: hsl(210, calc(var(--saturation-factor, 1) * 11.1%), 92.9%);
+    --status-grey-200: hsl(216, calc(var(--saturation-factor, 1) * 9.8%), 90%);
+    --status-grey-230: hsl(210, calc(var(--saturation-factor, 1) * 9.1%), 87.1%);
+    --status-grey-260: hsl(210, calc(var(--saturation-factor, 1) * 9.8%), 83.9%);
+    --status-grey-300: hsl(210, calc(var(--saturation-factor, 1) * 9.8%), 80%);
+    --status-grey-330: hsl(214, calc(var(--saturation-factor, 1) * 10.6%), 74.1%);
+    --status-grey-345: hsl(216, calc(var(--saturation-factor, 1) * 9.9%), 70.4%);
+    --status-grey-360: hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 68.2%);
+    --status-grey-400: hsl(213, calc(var(--saturation-factor, 1) * 9.9%), 60.4%);
+    --status-grey-430: hsl(214, calc(var(--saturation-factor, 1) * 9.7%), 57.5%);
+    --status-grey-460: hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 54.3%);
+    --status-grey-500: hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%);
+    --status-grey-530: hsl(213, calc(var(--saturation-factor, 1) * 9.4%), 45.9%);
+    --status-grey-560: hsl(213, calc(var(--saturation-factor, 1) * 9.6%), 40.8%);
+    --status-grey-600: hsl(215, calc(var(--saturation-factor, 1) * 9.7%), 34.3%);
+    --status-grey-630: hsl(212, calc(var(--saturation-factor, 1) * 9.9%), 29.6%);
+    --status-grey-660: hsl(217, calc(var(--saturation-factor, 1) * 9.8%), 26.1%);
+    --status-grey-700: hsl(210, calc(var(--saturation-factor, 1) * 9.8%), 20%);
+    --status-grey-730: hsl(216, calc(var(--saturation-factor, 1) * 10.4%), 18.8%);
+    --status-grey-760: hsl(213, calc(var(--saturation-factor, 1) * 10.1%), 17.5%);
+    --status-grey-800: hsl(214, calc(var(--saturation-factor, 1) * 9.1%), 15.1%);
+    --status-grey-830: hsl(216, calc(var(--saturation-factor, 1) * 8.5%), 11.6%);
+    --status-grey-860: hsl(210, calc(var(--saturation-factor, 1) * 10.5%), 7.5%);
+    --status-grey-900: hsl(240, calc(var(--saturation-factor, 1) * 7.7%), 2.5%);
+    --status-orange-100: hsl(18, calc(var(--saturation-factor, 1) * 100%), 98%);
+    --status-orange-130: hsl(23, calc(var(--saturation-factor, 1) * 90%), 96.1%);
+    --status-orange-160: hsl(21, calc(var(--saturation-factor, 1) * 93.5%), 93.9%);
+    --status-orange-200: hsl(22, calc(var(--saturation-factor, 1) * 90.7%), 91.6%);
+    --status-orange-230: hsl(22, calc(var(--saturation-factor, 1) * 89.5%), 88.8%);
+    --status-orange-260: hsl(22, calc(var(--saturation-factor, 1) * 91.4%), 86.3%);
+    --status-orange-300: hsl(22, calc(var(--saturation-factor, 1) * 90.7%), 83.1%);
+    --status-orange-330: hsl(21, calc(var(--saturation-factor, 1) * 91.1%), 78%);
+    --status-orange-345: hsl(21, calc(var(--saturation-factor, 1) * 90.7%), 74.7%);
+    --status-orange-360: hsl(21, calc(var(--saturation-factor, 1) * 91.3%), 72.9%);
+    --status-orange-400: hsl(21, calc(var(--saturation-factor, 1) * 90.8%), 66.1%);
+    --status-orange-430: hsl(22, calc(var(--saturation-factor, 1) * 90.3%), 63.7%);
+    --status-orange-460: hsl(22, calc(var(--saturation-factor, 1) * 91%), 61%);
+    --status-orange-500: hsl(21, calc(var(--saturation-factor, 1) * 90.7%), 57.6%);
+    --status-orange-530: hsl(21, calc(var(--saturation-factor, 1) * 73.6%), 52.5%);
+    --status-orange-560: hsl(21, calc(var(--saturation-factor, 1) * 66.4%), 46.7%);
+    --status-orange-600: hsl(21, calc(var(--saturation-factor, 1) * 67%), 39.2%);
+    --status-orange-630: hsl(21, calc(var(--saturation-factor, 1) * 66.5%), 33.9%);
+    --status-orange-660: hsl(21, calc(var(--saturation-factor, 1) * 66.9%), 29.6%);
+    --status-orange-700: hsl(22, calc(var(--saturation-factor, 1) * 66.1%), 23.1%);
+    --status-orange-730: hsl(22, calc(var(--saturation-factor, 1) * 67.3%), 21.6%);
+    --status-orange-760: hsl(21, calc(var(--saturation-factor, 1) * 66.3%), 19.8%);
+    --status-orange-800: hsl(21, calc(var(--saturation-factor, 1) * 66.3%), 17.5%);
+    --status-orange-830: hsl(21, calc(var(--saturation-factor, 1) * 67.2%), 13.1%);
+    --status-orange-860: hsl(22, calc(var(--saturation-factor, 1) * 68.2%), 8.6%);
+    --status-orange-900: hsl(24, calc(var(--saturation-factor, 1) * 71.4%), 2.7%);
+    --focus-primary-100: hsl(195, calc(var(--saturation-factor, 1) * 85.7%), 97.3%);
+    --focus-primary-130: hsl(196, calc(var(--saturation-factor, 1) * 91.7%), 95.3%);
+    --focus-primary-160: hsl(195, calc(var(--saturation-factor, 1) * 89.7%), 92.4%);
+    --focus-primary-200: hsl(197, calc(var(--saturation-factor, 1) * 92.5%), 89.6%);
+    --focus-primary-230: hsl(197, calc(var(--saturation-factor, 1) * 91.3%), 86.5%);
+    --focus-primary-260: hsl(197, calc(var(--saturation-factor, 1) * 90.8%), 82.9%);
+    --focus-primary-300: hsl(197, calc(var(--saturation-factor, 1) * 92.5%), 79.2%);
+    --focus-primary-330: hsl(197, calc(var(--saturation-factor, 1) * 91.4%), 72.7%);
+    --focus-primary-345: hsl(196, calc(var(--saturation-factor, 1) * 91.3%), 68.6%);
+    --focus-primary-360: hsl(197, calc(var(--saturation-factor, 1) * 91.8%), 66.7%);
+    --focus-primary-400: hsl(197, calc(var(--saturation-factor, 1) * 91.5%), 58.2%);
+    --focus-primary-430: hsl(197, calc(var(--saturation-factor, 1) * 92.1%), 55.5%);
+    --focus-primary-460: hsl(197, calc(var(--saturation-factor, 1) * 91.8%), 52%);
+    --focus-primary-500: hsl(197, calc(var(--saturation-factor, 1) * 100%), 47.8%);
+    --focus-primary-530: hsl(197, calc(var(--saturation-factor, 1) * 100%), 43.5%);
+    --focus-primary-560: hsl(197, calc(var(--saturation-factor, 1) * 100%), 38.8%);
+    --focus-primary-600: hsl(197, calc(var(--saturation-factor, 1) * 100%), 32.5%);
+    --focus-primary-630: hsl(197, calc(var(--saturation-factor, 1) * 100%), 28.2%);
+    --focus-primary-660: hsl(197, calc(var(--saturation-factor, 1) * 100%), 24.7%);
+    --focus-primary-700: hsl(197, calc(var(--saturation-factor, 1) * 100%), 19.2%);
+    --focus-primary-730: hsl(196, calc(var(--saturation-factor, 1) * 100%), 17.8%);
+    --focus-primary-760: hsl(196, calc(var(--saturation-factor, 1) * 100%), 16.5%);
+    --focus-primary-800: hsl(196, calc(var(--saturation-factor, 1) * 100%), 14.3%);
+    --focus-primary-830: hsl(197, calc(var(--saturation-factor, 1) * 100%), 11%);
+    --focus-primary-860: hsl(198, calc(var(--saturation-factor, 1) * 100%), 7.3%);
+    --focus-primary-900: hsl(195, calc(var(--saturation-factor, 1) * 100%), 2.4%);
+    --link-100: hsl(195, calc(var(--saturation-factor, 1) * 85.7%), 97.3%);
+    --link-130: hsl(196, calc(var(--saturation-factor, 1) * 91.7%), 95.3%);
+    --link-160: hsl(195, calc(var(--saturation-factor, 1) * 89.7%), 92.4%);
+    --link-200: hsl(197, calc(var(--saturation-factor, 1) * 92.5%), 89.6%);
+    --link-230: hsl(197, calc(var(--saturation-factor, 1) * 91.3%), 86.5%);
+    --link-260: hsl(197, calc(var(--saturation-factor, 1) * 90.8%), 82.9%);
+    --link-300: hsl(197, calc(var(--saturation-factor, 1) * 92.5%), 79.2%);
+    --link-330: hsl(197, calc(var(--saturation-factor, 1) * 91.4%), 72.7%);
+    --link-345: hsl(196, calc(var(--saturation-factor, 1) * 91.3%), 68.6%);
+    --link-360: hsl(197, calc(var(--saturation-factor, 1) * 91.8%), 66.7%);
+    --link-400: hsl(197, calc(var(--saturation-factor, 1) * 91.5%), 58.2%);
+    --link-430: hsl(197, calc(var(--saturation-factor, 1) * 92.1%), 55.5%);
+    --link-460: hsl(197, calc(var(--saturation-factor, 1) * 91.8%), 52%);
+    --link-500: hsl(197, calc(var(--saturation-factor, 1) * 100%), 47.8%);
+    --link-530: hsl(197, calc(var(--saturation-factor, 1) * 100%), 43.5%);
+    --link-560: hsl(197, calc(var(--saturation-factor, 1) * 100%), 38.8%);
+    --link-600: hsl(197, calc(var(--saturation-factor, 1) * 100%), 32.5%);
+    --link-630: hsl(197, calc(var(--saturation-factor, 1) * 100%), 28.2%);
+    --link-660: hsl(197, calc(var(--saturation-factor, 1) * 100%), 24.7%);
+    --link-700: hsl(197, calc(var(--saturation-factor, 1) * 100%), 19.2%);
+    --link-730: hsl(196, calc(var(--saturation-factor, 1) * 100%), 17.8%);
+    --link-760: hsl(196, calc(var(--saturation-factor, 1) * 100%), 16.5%);
+    --link-800: hsl(196, calc(var(--saturation-factor, 1) * 100%), 14.3%);
+    --link-830: hsl(197, calc(var(--saturation-factor, 1) * 100%), 11%);
+    --link-860: hsl(198, calc(var(--saturation-factor, 1) * 100%), 7.3%);
+    --link-900: hsl(195, calc(var(--saturation-factor, 1) * 100%), 2.4%);
+    --link-low-saturation-100: hsl(195, calc(var(--saturation-factor, 1) * 100%), 97.6%);
+    --link-low-saturation-130: hsl(196, calc(var(--saturation-factor, 1) * 100%), 95.7%);
+    --link-low-saturation-160: hsl(197, calc(var(--saturation-factor, 1) * 100%), 93.1%);
+    --link-low-saturation-200: hsl(196, calc(var(--saturation-factor, 1) * 100%), 90.6%);
+    --link-low-saturation-230: hsl(196, calc(var(--saturation-factor, 1) * 100%), 87.8%);
+    --link-low-saturation-260: hsl(197, calc(var(--saturation-factor, 1) * 100%), 84.7%);
+    --link-low-saturation-300: hsl(197, calc(var(--saturation-factor, 1) * 100%), 81.2%);
+    --link-low-saturation-330: hsl(197, calc(var(--saturation-factor, 1) * 100%), 75.5%);
+    --link-low-saturation-345: hsl(197, calc(var(--saturation-factor, 1) * 100%), 71.8%);
+    --link-low-saturation-360: hsl(197, calc(var(--saturation-factor, 1) * 100%), 69.8%);
+    --link-low-saturation-400: hsl(197, calc(var(--saturation-factor, 1) * 100%), 62.4%);
+    --link-low-saturation-430: hsl(197, calc(var(--saturation-factor, 1) * 100%), 59.8%);
+    --link-low-saturation-460: hsl(197, calc(var(--saturation-factor, 1) * 100%), 56.7%);
+    --link-low-saturation-500: hsl(197, calc(var(--saturation-factor, 1) * 100%), 52.9%);
+    --link-low-saturation-530: hsl(197, calc(var(--saturation-factor, 1) * 88.6%), 48.2%);
+    --link-low-saturation-560: hsl(197, calc(var(--saturation-factor, 1) * 89%), 42.9%);
+    --link-low-saturation-600: hsl(197, calc(var(--saturation-factor, 1) * 89.1%), 35.9%);
+    --link-low-saturation-630: hsl(197, calc(var(--saturation-factor, 1) * 88.7%), 31.2%);
+    --link-low-saturation-660: hsl(197, calc(var(--saturation-factor, 1) * 88.5%), 27.3%);
+    --link-low-saturation-700: hsl(197, calc(var(--saturation-factor, 1) * 88.9%), 21.2%);
+    --link-low-saturation-730: hsl(197, calc(var(--saturation-factor, 1) * 88.1%), 19.8%);
+    --link-low-saturation-760: hsl(197, calc(var(--saturation-factor, 1) * 89.2%), 18.2%);
+    --link-low-saturation-800: hsl(197, calc(var(--saturation-factor, 1) * 87.8%), 16.1%);
+    --link-low-saturation-830: hsl(197, calc(var(--saturation-factor, 1) * 90.3%), 12.2%);
+    --link-low-saturation-860: hsl(197, calc(var(--saturation-factor, 1) * 90%), 7.8%);
+    --link-low-saturation-900: hsl(200, calc(var(--saturation-factor, 1) * 85.7%), 2.7%);
+    --link-light-100: hsl(213, calc(var(--saturation-factor, 1) * 73.3%), 97.1%);
+    --link-light-130: hsl(213, calc(var(--saturation-factor, 1) * 76.9%), 94.9%);
+    --link-light-160: hsl(213, calc(var(--saturation-factor, 1) * 80.5%), 92%);
+    --link-light-200: hsl(212, calc(var(--saturation-factor, 1) * 78.9%), 88.8%);
+    --link-light-230: hsl(213, calc(var(--saturation-factor, 1) * 78.4%), 85.5%);
+    --link-light-260: hsl(212, calc(var(--saturation-factor, 1) * 78.5%), 81.8%);
+    --link-light-300: hsl(213, calc(var(--saturation-factor, 1) * 78.9%), 77.6%);
+    --link-light-330: hsl(212, calc(var(--saturation-factor, 1) * 78.5%), 70.8%);
+    --link-light-345: hsl(212, calc(var(--saturation-factor, 1) * 77.9%), 66.3%);
+    --link-light-360: hsl(212, calc(var(--saturation-factor, 1) * 78.1%), 64.1%);
+    --link-light-400: hsl(213, calc(var(--saturation-factor, 1) * 78.2%), 55.1%);
+    --link-light-430: hsl(212, calc(var(--saturation-factor, 1) * 78%), 52%);
+    --link-light-460: hsl(212, calc(var(--saturation-factor, 1) * 83.7%), 48.2%);
+    --link-light-500: hsl(212, calc(var(--saturation-factor, 1) * 100%), 43.9%);
+    --link-light-530: hsl(212, calc(var(--saturation-factor, 1) * 100%), 40%);
+    --link-light-560: hsl(212, calc(var(--saturation-factor, 1) * 100%), 35.5%);
+    --link-light-600: hsl(212, calc(var(--saturation-factor, 1) * 100%), 29.8%);
+    --link-light-630: hsl(212, calc(var(--saturation-factor, 1) * 100%), 25.9%);
+    --link-light-660: hsl(212, calc(var(--saturation-factor, 1) * 100%), 22.5%);
+    --link-light-700: hsl(213, calc(var(--saturation-factor, 1) * 100%), 17.6%);
+    --link-light-730: hsl(212, calc(var(--saturation-factor, 1) * 100%), 16.5%);
+    --link-light-760: hsl(213, calc(var(--saturation-factor, 1) * 100%), 15.1%);
+    --link-light-800: hsl(212, calc(var(--saturation-factor, 1) * 100%), 13.1%);
+    --link-light-830: hsl(212, calc(var(--saturation-factor, 1) * 100%), 10.2%);
+    --link-light-860: hsl(214, calc(var(--saturation-factor, 1) * 100%), 6.7%);
+    --link-light-900: hsl(213, calc(var(--saturation-factor, 1) * 100%), 2.2%);
+    --white-100: hsl(0, calc(var(--saturation-factor, 1) * 0%), 100%);
+    --white-130: hsl(0, calc(var(--saturation-factor, 1) * 0%), 100%);
+    --white-160: hsl(0, calc(var(--saturation-factor, 1) * 0%), 100%);
+    --white-200: hsl(0, calc(var(--saturation-factor, 1) * 0%), 100%);
+    --white-230: hsl(0, calc(var(--saturation-factor, 1) * 0%), 100%);
+    --white-260: hsl(0, calc(var(--saturation-factor, 1) * 0%), 100%);
+    --white-300: hsl(0, calc(var(--saturation-factor, 1) * 0%), 100%);
+    --white-330: hsl(0, calc(var(--saturation-factor, 1) * 0%), 100%);
+    --white-345: hsl(0, calc(var(--saturation-factor, 1) * 0%), 100%);
+    --white-360: hsl(0, calc(var(--saturation-factor, 1) * 0%), 100%);
+    --white-400: hsl(0, calc(var(--saturation-factor, 1) * 0%), 100%);
+    --white-430: hsl(0, calc(var(--saturation-factor, 1) * 0%), 100%);
+    --white-460: hsl(0, calc(var(--saturation-factor, 1) * 0%), 100%);
+    --white-500: hsl(0, calc(var(--saturation-factor, 1) * 0%), 100%);
+    --white-530: hsl(0, calc(var(--saturation-factor, 1) * 0%), 91%);
+    --white-560: hsl(0, calc(var(--saturation-factor, 1) * 0%), 81.2%);
+    --white-600: hsl(0, calc(var(--saturation-factor, 1) * 0%), 67.8%);
+    --white-630: hsl(0, calc(var(--saturation-factor, 1) * 0%), 58.8%);
+    --white-660: hsl(0, calc(var(--saturation-factor, 1) * 0%), 51.4%);
+    --white-700: hsl(0, calc(var(--saturation-factor, 1) * 0%), 40%);
+    --white-730: hsl(0, calc(var(--saturation-factor, 1) * 0%), 37.3%);
+    --white-760: hsl(0, calc(var(--saturation-factor, 1) * 0%), 34.5%);
+    --white-800: hsl(0, calc(var(--saturation-factor, 1) * 0%), 30.2%);
+    --white-830: hsl(0, calc(var(--saturation-factor, 1) * 0%), 23.1%);
+    --white-860: hsl(0, calc(var(--saturation-factor, 1) * 0%), 14.9%);
+    --white-900: hsl(0, calc(var(--saturation-factor, 1) * 0%), 5.1%);
+    --black-100: hsl(0, calc(var(--saturation-factor, 1) * 0%), 94.9%);
+    --black-130: hsl(0, calc(var(--saturation-factor, 1) * 0%), 91%);
+    --black-160: hsl(0, calc(var(--saturation-factor, 1) * 0%), 85.5%);
+    --black-200: hsl(0, calc(var(--saturation-factor, 1) * 0%), 80%);
+    --black-230: hsl(0, calc(var(--saturation-factor, 1) * 0%), 74.1%);
+    --black-260: hsl(0, calc(var(--saturation-factor, 1) * 0%), 67.5%);
+    --black-300: hsl(0, calc(var(--saturation-factor, 1) * 0%), 60%);
+    --black-330: hsl(0, calc(var(--saturation-factor, 1) * 0%), 47.8%);
+    --black-345: hsl(0, calc(var(--saturation-factor, 1) * 0%), 40%);
+    --black-360: hsl(0, calc(var(--saturation-factor, 1) * 0%), 36.1%);
+    --black-400: hsl(0, calc(var(--saturation-factor, 1) * 0%), 20%);
+    --black-430: hsl(0, calc(var(--saturation-factor, 1) * 0%), 14.5%);
+    --black-460: hsl(0, calc(var(--saturation-factor, 1) * 0%), 7.8%);
+    --black-500: hsl(0, calc(var(--saturation-factor, 1) * 0%), 0%);
+    --black-530: hsl(0, calc(var(--saturation-factor, 1) * 0%), 0%);
+    --black-560: hsl(0, calc(var(--saturation-factor, 1) * 0%), 0%);
+    --black-600: hsl(0, calc(var(--saturation-factor, 1) * 0%), 0%);
+    --black-630: hsl(0, calc(var(--saturation-factor, 1) * 0%), 0%);
+    --black-660: hsl(0, calc(var(--saturation-factor, 1) * 0%), 0%);
+    --black-700: hsl(0, calc(var(--saturation-factor, 1) * 0%), 0%);
+    --black-730: hsl(0, calc(var(--saturation-factor, 1) * 0%), 0%);
+    --black-760: hsl(0, calc(var(--saturation-factor, 1) * 0%), 0%);
+    --black-800: hsl(0, calc(var(--saturation-factor, 1) * 0%), 0%);
+    --black-830: hsl(0, calc(var(--saturation-factor, 1) * 0%), 0%);
+    --black-860: hsl(0, calc(var(--saturation-factor, 1) * 0%), 0%);
+    --black-900: hsl(0, calc(var(--saturation-factor, 1) * 0%), 0%);
+    --premium-tier-2-purple: hsl(270, calc(var(--saturation-factor, 1) * 86.7%), 70.6%);
+    --premium-tier-2-purple-for-gradients: hsl(269, calc(var(--saturation-factor, 1) * 52.7%), 52.7%);
+    --premium-tier-2-purple-for-gradients-2: hsl(296, calc(var(--saturation-factor, 1) * 50%), 51.4%);
+    --premium-tier-2-pink: hsl(342, calc(var(--saturation-factor, 1) * 58%), 72.9%);
+    --premium-tier-2-pink-for-gradients: hsl(325, calc(var(--saturation-factor, 1) * 31.7%), 51.8%);
+    --premium-tier-2-pink-for-gradients-2: hsl(295, calc(var(--saturation-factor, 1) * 51.4%), 50%);
+    --premium-tier-1-purple: hsl(244, calc(var(--saturation-factor, 1) * 100%), 84.1%);
+    --premium-tier-1-blue: hsl(228, calc(var(--saturation-factor, 1) * 86.7%), 70.6%);
+    --premium-tier-1-dark-blue-for-gradients: hsl(235, calc(var(--saturation-factor, 1) * 68.5%), 52.7%);
+    --premium-tier-1-blue-for-gradients: hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%);
+    --premium-tier-0-purple: hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%);
+    --premium-tier-0-blue: hsl(202, calc(var(--saturation-factor, 1) * 100%), 38%);
+    --premium-tier-0-purple-for-gradients: hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%);
+    --premium-tier-0-blue-for-gradients: hsl(202, calc(var(--saturation-factor, 1) * 100%), 38%);
+    --premium-tier-0-blue-for-gradients-2: hsl(209, calc(var(--saturation-factor, 1) * 80%), 45.1%);
+    --premium-tier-0-header-gradient-1: hsl(240, calc(var(--saturation-factor, 1) * 55.2%), 47.3%);
+    --premium-tier-0-header-gradient-2: hsl(224, calc(var(--saturation-factor, 1) * 77.9%), 59.2%);
+    --premium-tier-0-header-gradient-3: hsl(246, calc(var(--saturation-factor, 1) * 74.4%), 69.4%);
+    --premium-tier-0-header-gradient-4: hsl(295, calc(var(--saturation-factor, 1) * 79.9%), 72.7%);
+    --premium-tier-0-header-gradient-5: hsl(336, calc(var(--saturation-factor, 1) * 55.2%), 72%);
+    --guild-boosting-pink: hsl(302, calc(var(--saturation-factor, 1) * 100%), 72.5%);
+    --guild-boosting-purple: hsl(269, calc(var(--saturation-factor, 1) * 83.8%), 71%);
+    --guild-boosting-blue: hsl(221, calc(var(--saturation-factor, 1) * 70%), 55.5%);
+    --guild-boosting-blue-for-gradients: hsl(235, calc(var(--saturation-factor, 1) * 68.5%), 52.7%);
+    --guild-boosting-purple-for-gradients: hsl(269, calc(var(--saturation-factor, 1) * 91.8%), 61.8%);
+    --premium-perk-green: hsl(164, calc(var(--saturation-factor, 1) * 55.1%), 69.4%);
+    --premium-perk-yellow: hsl(47, calc(var(--saturation-factor, 1) * 98.9%), 63.9%);
+    --premium-perk-purple: hsl(272, calc(var(--saturation-factor, 1) * 100%), 80.2%);
+    --premium-perk-pink: hsl(305, calc(var(--saturation-factor, 1) * 100%), 75.1%);
+    --premium-perk-dark-blue: hsl(220, calc(var(--saturation-factor, 1) * 67.4%), 55.5%);
+    --premium-perk-blue: hsl(222, calc(var(--saturation-factor, 1) * 100%), 75.1%);
+    --premium-perk-blue-alt: hsl(223, calc(var(--saturation-factor, 1) * 100%), 80.6%);
+    --premium-perk-light-blue: hsl(221, calc(var(--saturation-factor, 1) * 100%), 84.1%);
+    --premium-perk-orange: hsl(25, calc(var(--saturation-factor, 1) * 96.7%), 64.1%);
+    --premium-perk-gold: hsl(38, calc(var(--saturation-factor, 1) * 95.7%), 54.1%);
+    --creator-revenue-start: hsl(160, calc(var(--saturation-factor, 1) * 81.3%), 35.7%);
+    --creator-revenue-end: hsl(198, calc(var(--saturation-factor, 1) * 81.5%), 46.7%);
+    --application-subscription-start: hsl(235, calc(var(--saturation-factor, 1) * 68.5%), 52.7%);
+    --application-subscription-end: hsl(197, calc(var(--saturation-factor, 1) * 98.8%), 32.4%);
+    --hypesquad-house-1: hsl(253, calc(var(--saturation-factor, 1) * 77%), 72.7%);
+    --hypesquad-house-2: hsl(9, calc(var(--saturation-factor, 1) * 86.5%), 68%);
+    --hypesquad-house-3: hsl(169, calc(var(--saturation-factor, 1) * 69.1%), 56.9%);
+    --gold: hsl(46, calc(var(--saturation-factor, 1) * 100%), 54.9%);
+    --partner: hsl(215, calc(var(--saturation-factor, 1) * 82.8%), 59%);
+    --skype: hsl(196, calc(var(--saturation-factor, 1) * 100%), 42.2%);
+    --battlenet: hsl(200, calc(var(--saturation-factor, 1) * 100%), 44.9%);
+    --steam: hsl(215, calc(var(--saturation-factor, 1) * 35.1%), 14.5%);
+    --lol: hsl(190, calc(var(--saturation-factor, 1) * 89.7%), 7.6%);
+    --twitch: hsl(262, calc(var(--saturation-factor, 1) * 46.8%), 39.8%);
+    --youtube: hsl(0, calc(var(--saturation-factor, 1) * 72.8%), 46.1%);
+    --twitter: hsl(203, calc(var(--saturation-factor, 1) * 89.1%), 53.1%);
+    --reddit: hsl(16, calc(var(--saturation-factor, 1) * 100%), 50%);
+    --spotify: hsl(141, calc(var(--saturation-factor, 1) * 72.9%), 42%);
+    --facebook: hsl(221, calc(var(--saturation-factor, 1) * 44.2%), 37.3%);
+    --samsung: hsl(231, calc(var(--saturation-factor, 1) * 77.8%), 35.3%);
+    --xbox: hsl(120, calc(var(--saturation-factor, 1) * 77.1%), 27.5%);
+    --github: hsl(0, calc(var(--saturation-factor, 1) * 4.2%), 9.4%);
+    --playstation: hsl(220, calc(var(--saturation-factor, 1) * 95.7%), 27.1%);
+    --crunchyroll: hsl(29, calc(var(--saturation-factor, 1) * 93%), 55.5%);
+    --transparent: hsl(0, calc(var(--saturation-factor, 1) * 0%), 0%, 0);
+    --input-placeholder-text-dark: hsl(216, calc(var(--saturation-factor, 1) * 2.1%), 53.9%);
+
+    --font-primary: "gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    --font-display: "gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    --font-headline: "ABC Ginto Nord","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.theme-dark {
+    --header-primary: var(--white-500);
+    --header-secondary: var(--primary-dark-300);
+    --text-normal: var(--primary-dark-200);
+    --text-muted: var(--primary-dark-330);
+    --text-link: var(--link-500);
+    --text-link-low-saturation: var(--link-low-saturation-500);
+    --text-positive: var(--status-green-560);
+    --text-warning: var(--status-yellow-500);
+    --text-danger: var(--status-red-360);
+    --text-brand: var(--brand-360);
+    --interactive-normal: var(--primary-dark-300);
+    --interactive-hover: var(--primary-dark-200);
+    --interactive-active: var(--white-500);
+    --interactive-muted: var(--primary-dark-500);
+    --mention-foreground: var(--brand-260);
+    --mention-background: rgba(var(--brand-500-rgb),0.3);
+    --background-primary: var(--primary-dark-600);
+    --background-secondary: var(--primary-dark-630);
+    --background-secondary-alt: var(--primary-dark-660);
+    --background-tertiary: var(--primary-dark-700);
+    --background-accent: var(--primary-dark-500);
+    --background-floating: var(--primary-dark-800);
+    --background-nested-floating: var(--primary-dark-630);
+    --background-mobile-primary: var(--primary-dark-600);
+    --background-mobile-secondary: var(--primary-dark-630);
+    --chat-background: var(--primary-dark-600);
+    --chat-border: var(--primary-dark-700);
+    --chat-input-container-background: var(--primary-dark-600);
+    --background-modifier-hover: rgba(var(--primary-dark-500-rgb),0.4);
+    --background-modifier-active: rgba(var(--primary-dark-500-rgb),0.48);
+    --background-modifier-selected: rgba(var(--primary-dark-500-rgb),0.6);
+    --background-modifier-accent: rgba(var(--primary-dark-500-rgb),0.48);
+    --info-positive-background: rgba(var(--status-green-600-rgb),0.1);
+    --info-positive-foreground: var(--status-green-600);
+    --info-positive-text: var(--white-500);
+    --info-warning-background: rgba(var(--status-yellow-500-rgb),0.1);
+    --info-warning-foreground: var(--status-yellow-500);
+    --info-warning-text: var(--white-500);
+    --info-danger-background: rgba(var(--status-red-500-rgb),0.1);
+    --info-danger-foreground: var(--status-red-500);
+    --info-danger-text: var(--white-500);
+    --info-help-background: rgba(var(--link-500-rgb),0.1);
+    --info-help-foreground: var(--link-500);
+    --info-help-text: var(--white-500);
+    --status-positive-background: var(--status-green-660);
+    --status-positive-text: var(--white-500);
+    --status-warning-background: var(--status-yellow-500);
+    --status-warning-text: var(--black-500);
+    --status-danger-background: var(--status-red-500);
+    --status-danger-text: var(--white-500);
+    --status-danger: var(--status-red-500);
+    --status-positive: var(--status-green-600);
+    --status-warning: var(--status-yellow-500);
+    --button-danger-background: var(--status-red-530);
+    --button-danger-background-hover: var(--status-red-600);
+    --button-danger-background-active: var(--status-red-630);
+    --button-danger-background-disabled: var(--status-red-530);
+    --button-positive-background: var(--status-green-660);
+    --button-positive-background-hover: var(--status-green-730);
+    --button-positive-background-active: var(--status-green-760);
+    --button-positive-background-disabled: var(--status-green-660);
+    --button-secondary-background: var(--primary-dark-500);
+    --button-secondary-background-hover: var(--primary-dark-430);
+    --button-secondary-background-active: var(--primary-dark-400);
+    --button-secondary-background-disabled: var(--primary-dark-500);
+    --button-outline-danger-text: var(--white-500);
+    --button-outline-danger-border: var(--status-red-500);
+    --button-outline-danger-background: rgba(var(--white-500-rgb),0);
+    --button-outline-danger-background-hover: var(--status-red-530);
+    --button-outline-danger-text-hover: var(--white-500);
+    --button-outline-danger-border-hover: var(--status-red-530);
+    --button-outline-danger-background-active: var(--status-red-560);
+    --button-outline-danger-text-active: var(--white-500);
+    --button-outline-danger-border-active: var(--status-red-530);
+    --button-outline-positive-text: var(--white-500);
+    --button-outline-positive-border: var(--status-green-600);
+    --button-outline-positive-background: rgba(var(--white-500-rgb),0);
+    --button-outline-positive-background-hover: var(--status-green-660);
+    --button-outline-positive-text-hover: var(--white-500);
+    --button-outline-positive-border-hover: var(--status-green-660);
+    --button-outline-positive-background-active: var(--status-green-730);
+    --button-outline-positive-text-active: var(--white-500);
+    --button-outline-positive-border-active: var(--status-green-730);
+    --button-outline-brand-text: var(--white-500);
+    --button-outline-brand-border: var(--brand-500);
+    --button-outline-brand-background: rgba(var(--white-500-rgb),0);
+    --button-outline-brand-background-hover: var(--brand-500);
+    --button-outline-brand-text-hover: var(--white-500);
+    --button-outline-brand-border-hover: var(--brand-500);
+    --button-outline-brand-background-active: var(--brand-560);
+    --button-outline-brand-text-active: var(--white-500);
+    --button-outline-brand-border-active: var(--brand-560);
+    --button-outline-primary-text: var(--white-500);
+    --button-outline-primary-border: var(--primary-dark-500);
+    --button-outline-primary-background: rgba(var(--white-500-rgb),0);
+    --button-outline-primary-background-hover: var(--primary-dark-500);
+    --button-outline-primary-text-hover: var(--white-500);
+    --button-outline-primary-border-hover: var(--primary-dark-500);
+    --button-outline-primary-background-active: var(--primary-dark-430);
+    --button-outline-primary-text-active: var(--white-500);
+    --button-outline-primary-border-active: var(--primary-dark-430);
+    --modal-background: var(--primary-dark-600);
+    --modal-footer-background: var(--primary-dark-630);
+    --scrollbar-thin-thumb: var(--primary-dark-700);
+    --scrollbar-thin-track: rgba(var(--black-500-rgb),0);
+    --scrollbar-auto-thumb: var(--primary-dark-700);
+    --scrollbar-auto-track: var(--status-grey-700);
+    --scrollbar-auto-scrollbar-color-thumb: var(--primary-dark-700);
+    --scrollbar-auto-scrollbar-color-track: var(--primary-dark-630);
+    --input-background: var(--primary-dark-700);
+    --input-placeholder-text: var(--input-placeholder-text-dark);
+    --logo-primary: var(--white-500);
+    --focus-primary: var(--focus-primary-500);
+    --control-brand-foreground: var(--brand-360);
+    --control-brand-foreground-new: var(--brand-new-360);
+    --background-mentioned: rgba(var(--status-yellow-500-rgb),0.1);
+    --background-mentioned-hover: rgba(var(--status-yellow-500-rgb),0.08);
+    --background-message-hover: rgba(var(--primary-dark-900-rgb),0.07);
+    --background-message-automod: rgba(var(--status-red-500-rgb),0.05);
+    --background-message-automod-hover: rgba(var(--status-red-500-rgb),0.1);
+    --background-message-highlight: rgba(var(--brand-360-rgb),0.08);
+    --background-message-highlight-hover: rgba(var(--brand-360-rgb),0.06);
+    --channels-default: var(--primary-dark-345);
+    --channel-icon: var(--primary-dark-360);
+    --channel-text-area-placeholder: var(--primary-dark-400);
+    --channeltextarea-background: var(--primary-dark-560);
+    --activity-card-background: var(--primary-dark-700);
+    --textbox-markdown-syntax: var(--primary-dark-360);
+    --spoiler-revealed-background: var(--primary-dark-660);
+    --spoiler-hidden-background: var(--primary-dark-700);
+    --android-navigation-bar-background: var(--primary-dark-830);
+    --android-ripple: rgba(var(--white-500-rgb),0.07);
+    --deprecated-card-bg: rgba(var(--primary-dark-700-rgb),0.6);
+    --deprecated-card-editable-bg: rgba(var(--primary-dark-700-rgb),0.3);
+    --deprecated-store-bg: var(--primary-dark-600);
+    --deprecated-quickswitcher-input-background: var(--primary-dark-400);
+    --deprecated-quickswitcher-input-placeholder: rgba(var(--white-500-rgb),0.3);
+    --deprecated-text-input-bg: var(--primary-dark-700);
+    --deprecated-text-input-border: rgba(var(--black-500-rgb),0.3);
+    --deprecated-text-input-border-hover: var(--primary-dark-900);
+    --deprecated-text-input-border-disabled: var(--primary-dark-700);
+    --deprecated-text-input-prefix: var(--primary-dark-200);
+}
+
+.theme-light {
+    --header-primary: var(--primary-light-900);
+    --header-secondary: var(--primary-light-600);
+    --text-normal: var(--primary-light-700);
+    --text-muted: var(--primary-light-560);
+    --text-link: var(--link-light-500);
+    --text-link-low-saturation: var(--link-light-500);
+    --text-positive: var(--status-green-660);
+    --text-warning: var(--status-yellow-630);
+    --text-danger: var(--status-red-600);
+    --text-brand: var(--brand-500);
+    --interactive-normal: var(--primary-light-600);
+    --interactive-hover: var(--primary-light-700);
+    --interactive-active: var(--primary-light-900);
+    --interactive-muted: var(--primary-light-300);
+    --mention-foreground: var(--brand-500);
+    --mention-background: rgba(var(--brand-500-rgb),0.15);
+    --background-primary: var(--white-500);
+    --background-secondary: var(--primary-light-130);
+    --background-secondary-alt: var(--primary-light-160);
+    --background-tertiary: var(--primary-light-200);
+    --background-accent: var(--primary-light-530);
+    --background-floating: var(--white-500);
+    --background-nested-floating: var(--white-500);
+    --background-mobile-primary: var(--primary-light-100);
+    --background-mobile-secondary: var(--white-500);
+    --chat-background: var(--white-500);
+    --chat-border: var(--primary-dark-200);
+    --chat-input-container-background: var(--white-500);
+    --background-modifier-hover: rgba(var(--primary-light-530-rgb),0.16);
+    --background-modifier-active: rgba(var(--primary-light-530-rgb),0.2);
+    --background-modifier-selected: rgba(var(--primary-light-530-rgb),0.24);
+    --background-modifier-accent: rgba(var(--primary-light-530-rgb),0.24);
+    --info-positive-background: rgba(var(--status-green-630-rgb),0.05);
+    --info-positive-foreground: var(--status-green-630);
+    --info-positive-text: var(--black-500);
+    --info-warning-background: rgba(var(--status-yellow-600-rgb),0.1);
+    --info-warning-foreground: var(--status-yellow-600);
+    --info-warning-text: var(--black-500);
+    --info-danger-background: rgba(var(--status-red-530-rgb),0.1);
+    --info-danger-foreground: var(--status-red-530);
+    --info-danger-text: var(--black-500);
+    --info-help-background: rgba(var(--link-light-500-rgb),0.1);
+    --info-help-foreground: var(--link-light-500);
+    --info-help-text: var(--black-500);
+    --status-positive-background: var(--status-green-660);
+    --status-positive-text: var(--white-500);
+    --status-warning-background: var(--status-yellow-600);
+    --status-warning-text: var(--white-500);
+    --status-danger-background: var(--status-red-530);
+    --status-danger-text: var(--white-500);
+    --status-danger: var(--status-red-530);
+    --status-positive: var(--status-green-630);
+    --status-warning: var(--status-yellow-600);
+    --button-danger-background: var(--status-red-530);
+    --button-danger-background-hover: var(--status-red-600);
+    --button-danger-background-active: var(--status-red-630);
+    --button-danger-background-disabled: var(--status-red-530);
+    --button-positive-background: var(--status-green-660);
+    --button-positive-background-hover: var(--status-green-730);
+    --button-positive-background-active: var(--status-green-760);
+    --button-positive-background-disabled: var(--status-green-660);
+    --button-secondary-background: var(--primary-light-530);
+    --button-secondary-background-hover: var(--primary-light-600);
+    --button-secondary-background-active: var(--primary-light-630);
+    --button-secondary-background-disabled: var(--primary-light-530);
+    --button-outline-danger-text: var(--black-500);
+    --button-outline-danger-border: var(--status-red-530);
+    --button-outline-danger-background: rgba(var(--white-500-rgb),0);
+    --button-outline-danger-background-hover: var(--status-red-530);
+    --button-outline-danger-text-hover: var(--white-500);
+    --button-outline-danger-border-hover: var(--status-red-530);
+    --button-outline-danger-background-active: var(--status-red-560);
+    --button-outline-danger-text-active: var(--white-500);
+    --button-outline-danger-border-active: var(--status-red-530);
+    --button-outline-positive-text: var(--black-500);
+    --button-outline-positive-border: var(--status-green-630);
+    --button-outline-positive-background: rgba(var(--white-500-rgb),0);
+    --button-outline-positive-background-hover: var(--status-green-660);
+    --button-outline-positive-text-hover: var(--white-500);
+    --button-outline-positive-border-hover: var(--status-green-660);
+    --button-outline-positive-background-active: var(--status-green-730);
+    --button-outline-positive-text-active: var(--white-500);
+    --button-outline-positive-border-active: var(--status-green-730);
+    --button-outline-brand-text: var(--black-500);
+    --button-outline-brand-border: var(--brand-500);
+    --button-outline-brand-background: rgba(var(--white-500-rgb),0);
+    --button-outline-brand-background-hover: var(--brand-500);
+    --button-outline-brand-text-hover: var(--white-500);
+    --button-outline-brand-border-hover: var(--brand-500);
+    --button-outline-brand-background-active: var(--brand-560);
+    --button-outline-brand-text-active: var(--white-500);
+    --button-outline-brand-border-active: var(--brand-560);
+    --button-outline-primary-text: var(--black-500);
+    --button-outline-primary-border: var(--primary-light-530);
+    --button-outline-primary-background: rgba(var(--white-500-rgb),0);
+    --button-outline-primary-background-hover: var(--primary-light-530);
+    --button-outline-primary-text-hover: var(--white-500);
+    --button-outline-primary-border-hover: var(--primary-light-530);
+    --button-outline-primary-background-active: var(--primary-light-600);
+    --button-outline-primary-text-active: var(--white-500);
+    --button-outline-primary-border-active: var(--primary-light-600);
+    --modal-background: var(--white-500);
+    --modal-footer-background: var(--primary-light-130);
+    --scrollbar-thin-thumb: rgba(var(--primary-dark-500-rgb),0.3);
+    --scrollbar-thin-track: rgba(var(--black-500-rgb),0);
+    --scrollbar-auto-thumb: var(--black-200);
+    --scrollbar-auto-track: var(--black-100);
+    --scrollbar-auto-scrollbar-color-thumb: var(--primary-light-200);
+    --scrollbar-auto-scrollbar-color-track: var(--primary-light-130);
+    --input-background: var(--primary-light-200);
+    --input-placeholder-text: var(--primary-light-560);
+    --logo-primary: var(--brand-500);
+    --focus-primary: var(--focus-primary-500);
+    --control-brand-foreground: var(--brand-500);
+    --control-brand-foreground-new: var(--brand-new-500);
+    --background-mentioned: rgba(var(--status-yellow-500-rgb),0.1);
+    --background-mentioned-hover: rgba(var(--status-yellow-500-rgb),0.2);
+    --background-message-hover: rgba(var(--primary-light-900-rgb),0.02);
+    --background-message-automod: rgba(var(--status-red-500-rgb),0.05);
+    --background-message-automod-hover: rgba(var(--status-red-500-rgb),0.1);
+    --background-message-highlight: rgba(var(--brand-360-rgb),0.1);
+    --background-message-highlight-hover: rgba(var(--brand-360-rgb),0.2);
+    --channels-default: var(--primary-light-560);
+    --channel-icon: var(--primary-light-530);
+    --channel-text-area-placeholder: var(--primary-light-500);
+    --channeltextarea-background: var(--primary-light-160);
+    --activity-card-background: var(--white-500);
+    --textbox-markdown-syntax: var(--primary-light-530);
+    --spoiler-revealed-background: var(--primary-light-160);
+    --spoiler-hidden-background: var(--primary-light-200);
+    --android-navigation-bar-background: var(--primary-light-100);
+    --android-ripple: rgba(var(--black-500-rgb),0.12);
+    --deprecated-card-bg: var(--primary-light-100);
+    --deprecated-card-editable-bg: rgba(var(--primary-dark-100-rgb),0.6);
+    --deprecated-store-bg: var(--primary-light-100);
+    --deprecated-quickswitcher-input-background: var(--white-500);
+    --deprecated-quickswitcher-input-placeholder: rgba(var(--primary-dark-500-rgb),0.3);
+    --deprecated-text-input-bg: var(--primary-light-200);
+    --deprecated-text-input-border: rgba(var(--primary-dark-500-rgb),0.3);
+    --deprecated-text-input-border-hover: var(--primary-dark-300);
+    --deprecated-text-input-border-disabled: var(--primary-dark-200);
+    --deprecated-text-input-prefix: var(--primary-dark-300);
+}
